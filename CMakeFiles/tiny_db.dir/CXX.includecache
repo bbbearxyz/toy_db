@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_cursor/Cursor.cpp
+iostream
+-
+Cursor.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_cursor/Cursor.h
+../part_tree/Node.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_tree/Node.h
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_cursor/Cursor.h
+../part_table/Table.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Table.h
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Pager.h
+Row.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.h
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.h
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Table.h
+Row.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.h
+Pager.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Pager.h
+
+/Users/mazijie/CLionProjects/tiny_db/src/part_tree/Node.h
+../part_table/Row.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.h
+../part_table/Pager.h
+/Users/mazijie/CLionProjects/tiny_db/src/part_table/Pager.h
+

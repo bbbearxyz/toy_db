@@ -1,0 +1,3 @@
+/Users/mazijie/CLionProjects/tiny_db/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mazijie/CLionProjects/tiny_db/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mazijie/CLionProjects/tiny_db/cmake-build-debug/CMakeFiles/tiny_db.dir

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tiny_db"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mazijie/CLionProjects/tiny_db"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mazijie/CLionProjects/tiny_db"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mazijie/CLionProjects/tiny_db"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_db">
+				<Option output="/Users/mazijie/CLionProjects/tiny_db/tiny_db" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mazijie/CLionProjects/tiny_db"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 tiny_db"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_db/fast">
+				<Option output="/Users/mazijie/CLionProjects/tiny_db/tiny_db" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mazijie/CLionProjects/tiny_db"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 tiny_db/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mazijie/CLionProjects/tiny_db/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/main.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_command/Command.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_command/Command.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_cursor/Cursor.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_cursor/Cursor.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_input/InputBuffer.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_input/InputBuffer.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_process/Process.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_process/Process.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Pager.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Pager.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Row.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Table.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_table/Table.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_tree/Node.cpp">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/src/part_tree/Node.h">
+			<Option target="tiny_db"/>
+		</Unit>
+		<Unit filename="/Users/mazijie/CLionProjects/tiny_db/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
